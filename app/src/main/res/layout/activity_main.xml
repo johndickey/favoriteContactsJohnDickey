@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.john.favorite_contacts_johndickey.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textviewName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                tools:text="@string/Contact_one" />
+
+            <TextView
+                android:id="@+id/textViewnumber1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/number_one"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttoncall1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select text to send:" />
+
+        <Spinner
+            android:id="@+id/spinnerText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Text" />
+
+        <Button
+            android:id="@+id/buttontext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="161dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textviewName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                tools:text="@string/Contact_two" />
+
+            <TextView
+                android:id="@+id/textViewnumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/number_two"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttoncall2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select text to send:" />
+
+        <Spinner
+            android:id="@+id/spinnerText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Text" />
+
+        <Button
+            android:id="@+id/buttontext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="165dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="347dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textviewName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                tools:text="@string/Contact_three" />
+
+            <TextView
+                android:id="@+id/textViewnumber3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/number_three"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttoncall3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select text to send:" />
+
+        <Spinner
+            android:id="@+id/spinnerText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Text" />
+
+        <Button
+            android:id="@+id/buttontext3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

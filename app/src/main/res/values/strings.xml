@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">favorite-Contacts-JohnDickey</string>
+    <string name="Contact_one">Joe</string>
+    <string name="Contact_two">Josh</string>
+    <string name="Contact_three">Bill</string>
+    <string name="number_one">6122225544</string>
+    <string name="number_two">6123334455</string>
+    <string name="number_three">6124446655</string>
+    <string-array name="Text">
+        <item>What's up?</item>
+        <item>Hang on!</item>
+        <item>What's good?</item>
+        <item>One Sec!</item>
+        <item>On my way!</item>
+    </string-array>
+</resources>
